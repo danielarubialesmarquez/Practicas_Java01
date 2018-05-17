@@ -1,0 +1,21 @@
+public class P05
+{
+  public static void main(String drm [])
+  { 
+      byte bytm=-128, bytmax=127;
+      short shortm=-32768, shortmax=32767;
+      int imin=-2147483648, imax=2147483647;
+      long lomin=-9223372036854775808, lomax=9223372036854775807;
+      float flomin=1175494351E–38, flomax=3402823466E+38;
+      double domin=22250738585072014E–308, domax=17976931348623158E+308;
+      boolean bmin=False, bmax=True;
+      
+      System.out.println("byte/valor minimo: "+bytm+" valor maximo: "+bytmax+");
+      System.out.println("short/valor minimo: "+shortm+" valor maximo: "+shortmax+");
+      System.out.println("int/valor minimo: "+imin+" valor maximo: "+imax+");
+      System.out.println("long/valor minimo: "+lomin+" valor maximo: "+lomax+");
+      System.out.println("float/valor minimo: "+flomin+" valor maximo: "+flomax+");
+      System.out.println("double/valor minimo: "+domin+" valor maximo: "+domax+");
+      
+  }//cipublic
+}//ciclass
